@@ -14,7 +14,7 @@ months = 0
 min_value = 0
 min_date = 0
 
-with open("resources/budget_data.csv", 'r') as csvfile:
+with open("budget_data.csv", 'r') as csvfile:
 
   data = []
 
