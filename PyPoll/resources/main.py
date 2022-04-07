@@ -69,4 +69,3 @@ with open("election_data.csv", 'r') as csvfile:
     w.write("Winner " + most_candidate_name + "\n")
 
     w.close()
-    
