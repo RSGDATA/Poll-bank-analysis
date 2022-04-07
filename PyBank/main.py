@@ -93,9 +93,3 @@ with open("resources/budget_data.csv", 'r') as csvfile:
   
   print("Greatest Drecrease In profits:",min_date,"("+str("$" + str(min_value)+")"))
   w.write("Greatest Drecrease In profits:" + min_date + "("+str("$" + str(min_value)+")")+"\n")
- 
-
-
-
-
-  
