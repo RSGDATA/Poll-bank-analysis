@@ -88,10 +88,10 @@ with open("budget_data.csv", 'r') as csvfile:
   print("Average Change:"+ " $" + str( Two_Dec ))
   w.write("Average Change:"+ " $" + str(Two_Dec)+ "\n")
   
-  print("Greatest Increase In Profits:", max_date, "(" + str("$" + str(max_value) + ")"))
-  w.write("Greatest Increase In Profits:"+ max_date + "(" + str("$" + str(max_value) + ")")+"\n")
+  print("Greatest Increase in Profits:", max_date, "(" + str("$" + str(max_value) + ")"))
+  w.write("Greatest Increase in Profits:"+ max_date + "(" + str("$" + str(max_value) + ")")+"\n")
   
-  print("Greatest Drecrease In profits:",min_date,"("+str("$" + str(min_value)+")"))
-  w.write("Greatest Drecrease In profits:" + min_date + "("+str("$" + str(min_value)+")")+"\n")
+  print("Greatest Drecrease in profits:",min_date,"("+str("$" + str(min_value)+")"))
+  w.write("Greatest Drecrease in profits:" + min_date + "("+str("$" + str(min_value)+")")+"\n")
 
   w.close()
