@@ -45,7 +45,7 @@ with open("budget_data.csv", 'r') as csvfile:
     if months > 1:
       change = current - last
       
-      #If the ammount is more than it was previuosly
+      #If the ammount is more than it was before
       if change > max_value:
         max_value = change
         max_date = row[0]
