@@ -1,4 +1,4 @@
-# Python_Challenge
+# Poll-analysis
 
 All output for PyPoll and PyBank will be in their respective resources folders. 
 
